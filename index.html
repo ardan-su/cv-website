@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ardan-su's CV | Developer & OS Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">Personal Things</span>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#roms" class="nav-link">Custom ROMs</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="download-pdf" class="btn-download" aria-label="Download as PDF">
+                    <i class="fas fa-download"></i> PDF
+                </button>
+                <a href="https://github.com/ardan-su" target="_blank" class="btn-github" aria-label="Visit GitHub">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+            
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">I'm <span class="highlight">Ardan Fachrial R</span></h1>
+                <h2 class="hero-subtitle">Developer & Custom ROM Builder</h2>
+                <p class="hero-description">
+                    Passionate anything about Software development, creating optimized custom ROMs, 
+                    and helping to reduce electronic waste. I specialize in system-level 
+                    programming and performance optimization.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#experience" class="btn-primary">View Experience</a>
+                    <a href="#roms" class="btn-secondary">See My ROMs</a>
+                    <a href="https://github.com/ardan-su" target="_blank" class="btn-outline">
+                        <i class="fab fa-github"></i> GitHub Profile
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+<section id="experience" class="experience section">
+    <div class="section-header">
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-subtitle">My journey in development</p>
+    </div>
+    
+    <div class="timeline">
+        <!-- Current Education -->
+        <div class="timeline-item">
+            <div class="timeline-date">2024 - Now</div>
+            <div class="timeline-content">
+                <h3 class="timeline-title">11th Grade High School Student</h3>
+                <p class="timeline-company">SMK PKP 1 JIS</p>
+                <ul class="timeline-description">
+                    <li>Major: Software Engineering</li>
+                    <li>Homeroom Teacher: Nova K S.Kom</li>
+                    <li>Member of Student Council (OSIS) 2024-2025</li>
+                    <li>Internship (PKL) coming soon</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- ROM Development Experience -->
+        <div class="timeline-item">
+            <div class="timeline-date">2022 - Now</div>
+            <div class="timeline-content">
+                <h3 class="timeline-title">ROM Developer & Contributor</h3>
+                <p class="timeline-company">Open Source Community</p>
+                <ul class="timeline-description">
+                    <li>Built and maintained custom ROMs for various Android devices</li>
+                    <li>Contributed to AOSP and popular custom ROM projects</li>
+                    <li>Optimized kernel parameters for better battery life and performance</li>
+                    <li>Created documentation and guides for ROM installation</li>
+                </ul>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">2025 - Now</div>
+            <div class="timeline-content">
+                <h3 class="timeline-title">Hackintosh Contributor</h3>
+                <p class="timeline-company">Open Source Community</p>
+                <ul class="timeline-description">
+                    <li>Help and maintained various of Hackintosh projects</li>
+                    <li>Contributed to 'itlwm.kext' for Wifi enforcement to Hackintosh Devices</li>
+                    <li>Optimized kernel parameters for performance and stability</li>
+                    <li>Created documentation and guides for Hackintosh installation</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Add more experiences as needed -->
+        <!--
+        <div class="timeline-item">
+            <div class="timeline-date">2018 - 2020</div>
+            <div class="timeline-content">
+                <h3 class="timeline-title">Your Previous Experience</h3>
+                <p class="timeline-company">Company/School Name</p>
+                <ul class="timeline-description">
+                    <li>First achievement or responsibility</li>
+                    <li>Second achievement or responsibility</li>
+                    <li>Third achievement or responsibility</li>
+                </ul>
+            </div>
+        </div>
+        -->
+    </div>
+</section>
+
+   <!-- Custom ROMs Section -->
+<section id="roms" class="roms section">
+    <div class="section-header">
+        <h2 class="section-title">Software Projects</h2>
+        <p class="section-subtitle">Android ROMs and Hackintosh devices I've built and maintained</p>
+    </div>
+    
+    <div class="roms-grid">
+        <!-- Evolution X -->
+        <div class="rom-card">
+            <div class="rom-header">
+                <div class="rom-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="rom-title-container">
+                    <h3 class="rom-title">MacOS X</h3>
+                    <span class="rom-version">Sequoia 15.6 • Hackintosh</span>
+                </div>
+            </div>
+            <p class="rom-tagline">Fluid, MacBook experience</p>
+            <div class="rom-details">
+                <span class="rom-device">
+                    <i class="fas fa-desktop-alt"></i>
+                    Lenovo IdeaPad 3 14IML05
+                </span>
+                <span class="rom-status">
+                    <i class="fas fa-circle"></i>
+                    Stable I think so
+                </span>
+            </div>
+            <p class="rom-description">
+                Lenovo with MacOS X Sequoia 15.6 experience, optimized for performance and stability.
+            </p>
+            <div class="rom-features">
+                <span class="feature-tag">Customization</span>
+                <span class="feature-tag">Performance</span>
+                <span class="feature-tag">Stable</span>
+            </div>
+            <div class="rom-links">
+                <a href="https://github.com/yourusername/evolution-x" target="_blank" class="rom-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://forum.xda-developers.com/" target="_blank" class="rom-link">
+                    <i class="fab fa-android"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- PixelOS -->
+        <div class="rom-card">
+            <div class="rom-header">
+                <div class="rom-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="rom-title-container">
+                    
+                    <h3 class="rom-title">PixelOS</h3>
+                    <span class="rom-version">Android 16 • QPR2</span>
+                </div>
+            </div>
+            <p class="rom-tagline">Clean Pixel Experience</p>
+            <div class="rom-details">
+                <span class="rom-device">
+                    <i class="fas fa-mobile-alt"></i>
+                    Various Devices
+                </span>
+                <span class="rom-status">
+                    <i class="fas fa-circle"></i>
+                    Optimized
+                </span>
+            </div>
+            <p class="rom-description">
+                Clean Pixel-like experience with performance optimizations and battery focus.
+            </p>
+            <div class="rom-features">
+                <span class="feature-tag">Battery</span>
+                <span class="feature-tag">Clean UI</span>
+                <span class="feature-tag">Stable</span>
+            </div>
+            <div class="rom-links">
+                <a href="https://github.com/ardan-su/pixelos" target="_blank" class="rom-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://forum.xda-developers.com/" target="_blank" class="rom-link">
+                    <i class="fab fa-android"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- LineageOS Optimized -->
+        <div class="rom-card">
+            <div class="rom-header">
+                <div class="rom-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="rom-title-container">
+                    <h3 class="rom-title">RisingOS Optimized</h3>
+                    <span class="rom-version">Custom Kernel</span>
+                </div>
+            </div>
+            <p class="rom-tagline">Enhanced Performance & Security</p>
+            <div class="rom-details">
+                <span class="rom-device">
+                    <i class="fas fa-mobile-alt"></i>
+                    20+ Devices
+                </span>
+                <span class="rom-status">
+                    <i class="fas fa-circle"></i>
+                    Daily Driver
+                </span>
+            </div>
+            <p class="rom-description">
+                RisingOS with custom kernel optimizations and enhanced performance features.
+            </p>
+            <div class="rom-features">
+                <span class="feature-tag">Security</span>
+                <span class="feature-tag">Personalize for Users</span>
+                <span class="feature-tag">Kernel</span>
+            </div>
+            <div class="rom-links">
+                <a href="https://github.com/ardan-su/lineageos" target="_blank" class="rom-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://forum.xda-developers.com/" target="_blank" class="rom-link">
+                    <i class="fab fa-android"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="section-header">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Technologies and tools I work with</p>
+        </div>
+        
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3 class="category-title">Android Development</h3>
+                <div class="skill-list">
+                    <span class="skill-item">Kotlin</span>
+                    <span class="skill-item">Java</span>
+                    <span class="skill-item">AOSP</span>
+                    <span class="skill-item">Android SDK</span>
+                    <span class="skill-item">ROOT/ADB</span>
+                    <span class="skill-item">MacOS X</span>
+                    <span class="skill-item">Swift</span>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3 class="category-title">ROM Building</h3>
+                <div class="skill-list">
+                    <span class="skill-item">Linux Kernel</span>
+                    <span class="skill-item">Device Trees</span>
+                    <span class="skill-item">Recovery (TWRP)</span>
+                    <span class="skill-item">Git/Repo</span>
+                    <span class="skill-item">Cross-compilation</span>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3 class="category-title">Web & Backend</h3>
+                <div class="skill-list">
+                    <span class="skill-item">JavaScript</span>
+                    <span class="skill-item">Node.js</span>
+                    <span class="skill-item">Python</span>
+                    <span class="skill-item">REST APIs</span>
+                    <span class="skill-item">Docker</span>
+                </div>
+            </div>
+        </div>
+
+                   
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3 class="footer-title">Get In Touch</h3>
+                <p class="footer-text">
+                    Interested in collaboration or have questions about me? 
+                    Feel free to reach out!
+                </p>
+            </div>
+            
+            <div class="footer-links">
+                <a href="https://github.com/yourusername" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:your.email@example.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://forum.xda-developers.com/" target="_blank" class="social-link">
+                    <i class="fab fa-android"></i>
+                </a>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> Ardan . All rights reserved.</p>
+                <p class="footer-note">This website is open source on <a href="https://github.com/ardan-su/cv-website" target="_blank">GitHub</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="script.js"></script>
+    <script src="pdf-generator.js"></script>
+</body>
+</html>
